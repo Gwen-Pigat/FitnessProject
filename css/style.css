@@ -111,10 +111,17 @@ body{
 	color: white;
 }
 
+
 /* Partage facebook*/
 
 .facebook_share{
 	margin-top: 2%;
 	width: 29%;
 	height: 39px;
+	opacity: 0.8;
+}
+
+.facebook_share:hover{
+	opacity: 1;
+	transition: 0.2s;
 }

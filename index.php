@@ -18,7 +18,7 @@
 
 <?php 
 
-$link = mysqli_connect("localhost","root","motdepasselocalhostgwen","Textr")or die("Erreur de connexion");
+$link = mysqli_connect("localhost","root","motdepasselocalhostgwen","Fitness")or die("Erreur de connexion");
 
 $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 

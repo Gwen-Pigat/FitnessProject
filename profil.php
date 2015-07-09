@@ -35,7 +35,7 @@
 <?php
 
 session_start();
-$link = mysqli_connect("localhost","root","motdepasselocalhostgwen","Textr")or die("Erreur de connexion");
+$link = mysqli_connect("localhost","root","motdepasselocalhostgwen","Fitness")or die("Erreur de connexion");
 $row = mysqli_fetch_assoc(mysqli_query($link, "SELECT * FROM Catcher WHERE adresse_ip='$_SERVER[REMOTE_ADDR]'"));
 
 if ($row == 0) {

@@ -28,4 +28,4 @@
 
 
 
-<?php $link = mysqli_connect("localhost","root","motdepasselocalhostgwen","Textr")or die("Erreur de connexion"); ?>
+<?php $link = mysqli_connect("localhost","root","motdepasselocalhostgwen","Fitness")or die("Erreur de connexion"); ?>
